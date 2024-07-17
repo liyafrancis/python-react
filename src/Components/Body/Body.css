@@ -1,0 +1,93 @@
+/* BackgroundComponent.css */
+
+.background-container {
+    background-image:url('/public/computer.png');
+    background-size: cover;/* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    height: 50vh; /* Full viewport height */
+    text-align: center;
+    color: #ffffff; /* Text color for contrast */
+  }
+
+  
+  .content {
+     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for readability */
+     background-size: cover;
+     height: 50vh;
+
+
+  }
+  
+  .content h1  {
+    font-size: 3rem;
+  }
+
+  .but {
+    display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fdfeff; /* Button text color */
+  background-color: #ffa602; /* Button background color */
+  border-radius: 100px; /* Button border radius */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition effects */
+  }
+
+  .but:hover {
+    background-color: #bcc722; /* Hover background color */
+    color: #ffffff; /* Hover text color */
+    border-color: #007bff; /* Hover border color */
+  }
+  .intro {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  .cont1{
+    margin-left: auto;
+
+  }
+
+  .cont3{
+    margin-right: auto;
+
+  }
+  
+  .line{
+  width: px; /* Width of the vertical line */
+  height: 70px; /* Height of the vertical line */
+  background-color: #e0c7c7; /* Color of the vertical line */
+  margin-left: 4%;
+  margin-right: 4%;
+  }
+ 
+  @media screen and (max-width: 900px){
+    .intro {
+        display: flex;
+    
+       
+      }
+      .cont1{
+        margin-left: 20%;
+    
+      }
+    
+      .cont3{
+        margin-right: 20%;
+    
+      }
+      
+      .line{
+      width: px; /* Width of the vertical line */
+      height: 70px; /* Height of the vertical line */
+      background-color: #e0c7c7; /* Color of the vertical line */
+      margin-left: 2%;
+      margin-right: 2%;
+      }
+
+  }

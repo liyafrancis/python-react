@@ -1,0 +1,120 @@
+/* Navbar.css */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d1df0f;
+  padding: 15px 20px;
+  border-radius: 100px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.pro {
+  list-style-type: none;
+  
+  padding: 0;
+  margin: 0;
+  display: flex; /* Ensure items in 'pro' are displayed in a single line */
+}
+
+.pro li {
+  margin-right: 10px; /* Adjust spacing between menu items */
+  color: #ffffff;
+  cursor: pointer;
+  font-size:45px;
+}
+.pr{
+  list-style-type: none;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+}
+.pr li {
+  margin-right: 10px; /* Adjust spacing between menu items */
+  font-size: 30px;
+  cursor: pointer;
+}
+.img{
+  display: none;
+}
+.right {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 100px;
+  
+  display: flex; /* Ensure items in 'right' are displayed in a single line */
+}
+
+.menu-toggle{
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    /* Adjust styles for smaller screens */
+    background-color: #8da813;
+  }
+  .right{
+    display: none;
+  }
+
+
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .img img{
+    height: 20px;
+    width: 20px;
+  }
+ 
+  .modal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+  
+ .right1{
+  background-color: #ffffff;
+  padding-top: 50px;
+  width: 100%;
+  max-width: 600px; /* Maximum width of the modal content */
+  padding: 20px;
+  border-radius: 10px;
+  height: 90%;
+ }
+ .close-modal {
+  
+  justify-content: end;
+  
+ }
+
+ .close-modal img{
+  height: 20px;
+  width: 20px;
+ }
+ .pr{
+display: block;
+color: #000;
+align-items: end;
+ }
+}
