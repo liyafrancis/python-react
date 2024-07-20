@@ -33,13 +33,14 @@
   color: #fdfeff; /* Button text color */
   background-color: #ffa602; /* Button background color */
   border-radius: 100px; /* Button border radius */
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition effects */
+  border-color: white;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effects */
   }
 
   .but:hover {
     background-color: #bcc722; /* Hover background color */
     color: #ffffff; /* Hover text color */
-    border-color: #007bff; /* Hover border color */
+    
   }
   .intro {
     display: flex;
